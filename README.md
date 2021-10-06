@@ -1,1 +1,1 @@
-# SImple-React-GraphQL
+# Simple-React-GraphQL

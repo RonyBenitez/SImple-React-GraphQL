@@ -1,0 +1,19 @@
+type Query {
+  movieID(id: Int!): Movie
+}
+
+type Query{
+  movieTitle(title:String!,start:Int!,end:Int!):[Movie]
+}
+
+
+type Movie {
+  Title:String,
+  Date: String,
+  Url: String,
+  Poster:String,
+  Title2:String,
+  Id:Int,
+  Query:String
+
+}
